@@ -1,0 +1,6 @@
+framework module Pods_kikisTests {
+  umbrella header "Pods-kikisTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

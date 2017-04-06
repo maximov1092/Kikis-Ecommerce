@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AD538E9BF9868708327F1DA /* Pods_kikis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A6A6DC17A8E2ADF7650349 /* Pods_kikis.framework */; };
+		4277C1D410918E99D2760880 /* Pods_kikisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCF67307CD7967FC8EC5FDA /* Pods_kikisTests.framework */; };
+		798120B7D881D1CFF7BB226F /* Pods_kikisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4453BC48B34A5905570DF7D3 /* Pods_kikisUITests.framework */; };
+		8439BEF91E0CC031001FB113 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439BEF81E0CC031001FB113 /* RestaurantViewController.swift */; };
+		8439BEFB1E0CC04E001FB113 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439BEFA1E0CC04E001FB113 /* ProfileViewController.swift */; };
+		8439BEFD1E0CC066001FB113 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439BEFC1E0CC066001FB113 /* ShoppingViewController.swift */; };
+		8439BF001E0CC684001FB113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8439BEFF1E0CC684001FB113 /* Foundation.framework */; };
+		8439BF021E0CC68C001FB113 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8439BF011E0CC68C001FB113 /* UIKit.framework */; };
+		8439BF041E0CC694001FB113 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8439BF031E0CC694001FB113 /* CoreGraphics.framework */; };
+		8439BF061E0CCE6C001FB113 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439BF051E0CCE6C001FB113 /* DetailViewController.swift */; };
+		84971A541E0B161F000B4DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84971A531E0B161F000B4DAE /* AppDelegate.swift */; };
+		84971A561E0B161F000B4DAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84971A551E0B161F000B4DAE /* ViewController.swift */; };
+		84971A591E0B161F000B4DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84971A571E0B161F000B4DAE /* Main.storyboard */; };
+		84971A5B1E0B161F000B4DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84971A5A1E0B161F000B4DAE /* Assets.xcassets */; };
+		84971A5E1E0B161F000B4DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84971A5C1E0B161F000B4DAE /* LaunchScreen.storyboard */; };
+		84971A691E0B1620000B4DAE /* kikisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84971A681E0B1620000B4DAE /* kikisTests.swift */; };
+		84971A741E0B1620000B4DAE /* kikisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84971A731E0B1620000B4DAE /* kikisUITests.swift */; };
+		84971A831E0B199D000B4DAE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971A821E0B199D000B4DAE /* logo.png */; };
+		84971A851E0B1B5B000B4DAE /* AuthenticationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84971A841E0B1B5B000B4DAE /* AuthenticationDelegate.swift */; };
+		84971A871E0B1CCB000B4DAE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84971A861E0B1CCB000B4DAE /* SignInViewController.swift */; };
+		84971A891E0B1CE6000B4DAE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84971A881E0B1CE6000B4DAE /* SignUpViewController.swift */; };
+		84971A8B1E0B22F7000B4DAE /* BUYClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84971A8A1E0B22F7000B4DAE /* BUYClient+Extensions.swift */; };
+		84971A8D1E0B2E74000B4DAE /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84971A8C1E0B2E74000B4DAE /* FeaturedViewController.swift */; };
+		84971A8F1E0B3091000B4DAE /* FeaturedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84971A8E1E0B3091000B4DAE /* FeaturedTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84971A651E0B1620000B4DAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84971A481E0B161F000B4DAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84971A4F1E0B161F000B4DAE;
+			remoteInfo = kikis;
+		};
+		84971A701E0B1620000B4DAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84971A481E0B161F000B4DAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84971A4F1E0B161F000B4DAE;
+			remoteInfo = kikis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4453BC48B34A5905570DF7D3 /* Pods_kikisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kikisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8439BEF81E0CC031001FB113 /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		8439BEFA1E0CC04E001FB113 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8439BEFC1E0CC066001FB113 /* ShoppingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		8439BEFF1E0CC684001FB113 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8439BF011E0CC68C001FB113 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8439BF031E0CC694001FB113 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8439BF051E0CCE6C001FB113 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84971A501E0B161F000B4DAE /* kikis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kikis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84971A531E0B161F000B4DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84971A551E0B161F000B4DAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84971A581E0B161F000B4DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84971A5A1E0B161F000B4DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84971A5D1E0B161F000B4DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84971A5F1E0B161F000B4DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84971A641E0B1620000B4DAE /* kikisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kikisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84971A681E0B1620000B4DAE /* kikisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kikisTests.swift; sourceTree = "<group>"; };
+		84971A6A1E0B1620000B4DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84971A6F1E0B1620000B4DAE /* kikisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kikisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84971A731E0B1620000B4DAE /* kikisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kikisUITests.swift; sourceTree = "<group>"; };
+		84971A751E0B1620000B4DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84971A821E0B199D000B4DAE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		84971A841E0B1B5B000B4DAE /* AuthenticationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationDelegate.swift; sourceTree = "<group>"; };
+		84971A861E0B1CCB000B4DAE /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		84971A881E0B1CE6000B4DAE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		84971A8A1E0B22F7000B4DAE /* BUYClient+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BUYClient+Extensions.swift"; sourceTree = "<group>"; };
+		84971A8C1E0B2E74000B4DAE /* FeaturedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
+		84971A8E1E0B3091000B4DAE /* FeaturedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedTableViewCell.swift; sourceTree = "<group>"; };
+		88A6A6DC17A8E2ADF7650349 /* Pods_kikis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kikis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		892DC683B391D697DB4CAC31 /* Pods-kikisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kikisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kikisUITests/Pods-kikisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FCF67307CD7967FC8EC5FDA /* Pods_kikisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kikisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42EDF8F91FB98B055419F0B /* Pods-kikisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kikisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kikisUITests/Pods-kikisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7E0F62BFB11C8AB9CA30379 /* Pods-kikisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kikisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kikisTests/Pods-kikisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F058565F3C065DE1D21FDBD3 /* Pods-kikisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kikisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kikisTests/Pods-kikisTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4E59FCDB65082B75389D5D7 /* Pods-kikis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kikis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kikis/Pods-kikis.debug.xcconfig"; sourceTree = "<group>"; };
+		F789505218E64492817136AF /* Pods-kikis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kikis.release.xcconfig"; path = "Pods/Target Support Files/Pods-kikis/Pods-kikis.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84971A4D1E0B161F000B4DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8439BF041E0CC694001FB113 /* CoreGraphics.framework in Frameworks */,
+				8439BF021E0CC68C001FB113 /* UIKit.framework in Frameworks */,
+				8439BF001E0CC684001FB113 /* Foundation.framework in Frameworks */,
+				2AD538E9BF9868708327F1DA /* Pods_kikis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84971A611E0B1620000B4DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4277C1D410918E99D2760880 /* Pods_kikisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84971A6C1E0B1620000B4DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798120B7D881D1CFF7BB226F /* Pods_kikisUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8439BEF41E0CBF2C001FB113 /* TabbarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84971A8C1E0B2E74000B4DAE /* FeaturedViewController.swift */,
+				8439BEF81E0CC031001FB113 /* RestaurantViewController.swift */,
+				8439BEFA1E0CC04E001FB113 /* ProfileViewController.swift */,
+				8439BEFC1E0CC066001FB113 /* ShoppingViewController.swift */,
+				8439BF051E0CCE6C001FB113 /* DetailViewController.swift */,
+			);
+			name = TabbarViewController;
+			sourceTree = "<group>";
+		};
+		8439BEF51E0CBF4D001FB113 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84971A861E0B1CCB000B4DAE /* SignInViewController.swift */,
+				84971A881E0B1CE6000B4DAE /* SignUpViewController.swift */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		8439BEF61E0CBF65001FB113 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84971A8A1E0B22F7000B4DAE /* BUYClient+Extensions.swift */,
+				84971A841E0B1B5B000B4DAE /* AuthenticationDelegate.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		8439BEF71E0CC000001FB113 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84971A8E1E0B3091000B4DAE /* FeaturedTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		84971A471E0B161F000B4DAE = {
+			isa = PBXGroup;
+			children = (
+				84971A521E0B161F000B4DAE /* kikis */,
+				84971A671E0B1620000B4DAE /* kikisTests */,
+				84971A721E0B1620000B4DAE /* kikisUITests */,
+				84971A511E0B161F000B4DAE /* Products */,
+				8FCD25A43A64F80D6667980B /* Pods */,
+				F3DAC62AA0BE43EF4835B01F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84971A511E0B161F000B4DAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84971A501E0B161F000B4DAE /* kikis.app */,
+				84971A641E0B1620000B4DAE /* kikisTests.xctest */,
+				84971A6F1E0B1620000B4DAE /* kikisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84971A521E0B161F000B4DAE /* kikis */ = {
+			isa = PBXGroup;
+			children = (
+				8439BEF71E0CC000001FB113 /* Cell */,
+				8439BEF61E0CBF65001FB113 /* Extension */,
+				8439BEF51E0CBF4D001FB113 /* LoginViewController */,
+				8439BEF41E0CBF2C001FB113 /* TabbarViewController */,
+				84971A811E0B199D000B4DAE /* Resources */,
+				84971A531E0B161F000B4DAE /* AppDelegate.swift */,
+				84971A551E0B161F000B4DAE /* ViewController.swift */,
+				84971A571E0B161F000B4DAE /* Main.storyboard */,
+				84971A5A1E0B161F000B4DAE /* Assets.xcassets */,
+				84971A5C1E0B161F000B4DAE /* LaunchScreen.storyboard */,
+				84971A5F1E0B161F000B4DAE /* Info.plist */,
+			);
+			path = kikis;
+			sourceTree = "<group>";
+		};
+		84971A671E0B1620000B4DAE /* kikisTests */ = {
+			isa = PBXGroup;
+			children = (
+				84971A681E0B1620000B4DAE /* kikisTests.swift */,
+				84971A6A1E0B1620000B4DAE /* Info.plist */,
+			);
+			path = kikisTests;
+			sourceTree = "<group>";
+		};
+		84971A721E0B1620000B4DAE /* kikisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84971A731E0B1620000B4DAE /* kikisUITests.swift */,
+				84971A751E0B1620000B4DAE /* Info.plist */,
+			);
+			path = kikisUITests;
+			sourceTree = "<group>";
+		};
+		84971A811E0B199D000B4DAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84971A821E0B199D000B4DAE /* logo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8FCD25A43A64F80D6667980B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4E59FCDB65082B75389D5D7 /* Pods-kikis.debug.xcconfig */,
+				F789505218E64492817136AF /* Pods-kikis.release.xcconfig */,
+				D7E0F62BFB11C8AB9CA30379 /* Pods-kikisTests.debug.xcconfig */,
+				F058565F3C065DE1D21FDBD3 /* Pods-kikisTests.release.xcconfig */,
+				892DC683B391D697DB4CAC31 /* Pods-kikisUITests.debug.xcconfig */,
+				C42EDF8F91FB98B055419F0B /* Pods-kikisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3DAC62AA0BE43EF4835B01F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8439BF031E0CC694001FB113 /* CoreGraphics.framework */,
+				8439BF011E0CC68C001FB113 /* UIKit.framework */,
+				8439BEFF1E0CC684001FB113 /* Foundation.framework */,
+				88A6A6DC17A8E2ADF7650349 /* Pods_kikis.framework */,
+				8FCF67307CD7967FC8EC5FDA /* Pods_kikisTests.framework */,
+				4453BC48B34A5905570DF7D3 /* Pods_kikisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84971A4F1E0B161F000B4DAE /* kikis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84971A781E0B1620000B4DAE /* Build configuration list for PBXNativeTarget "kikis" */;
+			buildPhases = (
+				CE36845680FAA39CEC3928E4 /* [CP] Check Pods Manifest.lock */,
+				84971A4C1E0B161F000B4DAE /* Sources */,
+				84971A4D1E0B161F000B4DAE /* Frameworks */,
+				84971A4E1E0B161F000B4DAE /* Resources */,
+				27378F0880F1C371F4BF11B9 /* [CP] Embed Pods Frameworks */,
+				D80460B7538469C7FDC8019F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kikis;
+			productName = kikis;
+			productReference = 84971A501E0B161F000B4DAE /* kikis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84971A631E0B1620000B4DAE /* kikisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84971A7B1E0B1620000B4DAE /* Build configuration list for PBXNativeTarget "kikisTests" */;
+			buildPhases = (
+				CAA5B17A4D18EC14D0B37E15 /* [CP] Check Pods Manifest.lock */,
+				84971A601E0B1620000B4DAE /* Sources */,
+				84971A611E0B1620000B4DAE /* Frameworks */,
+				84971A621E0B1620000B4DAE /* Resources */,
+				01167D37481BC8454A5C3C8E /* [CP] Embed Pods Frameworks */,
+				26677247D7733D21F9A1154C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84971A661E0B1620000B4DAE /* PBXTargetDependency */,
+			);
+			name = kikisTests;
+			productName = kikisTests;
+			productReference = 84971A641E0B1620000B4DAE /* kikisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84971A6E1E0B1620000B4DAE /* kikisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84971A7E1E0B1620000B4DAE /* Build configuration list for PBXNativeTarget "kikisUITests" */;
+			buildPhases = (
+				9F069059276D1CE12202641A /* [CP] Check Pods Manifest.lock */,
+				84971A6B1E0B1620000B4DAE /* Sources */,
+				84971A6C1E0B1620000B4DAE /* Frameworks */,
+				84971A6D1E0B1620000B4DAE /* Resources */,
+				8DB2C0D9EE1656EAB42784F8 /* [CP] Embed Pods Frameworks */,
+				A77AE046C1F0AD9753ED1D48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84971A711E0B1620000B4DAE /* PBXTargetDependency */,
+			);
+			name = kikisUITests;
+			productName = kikisUITests;
+			productReference = 84971A6F1E0B1620000B4DAE /* kikisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84971A481E0B161F000B4DAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84971A4F1E0B161F000B4DAE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					84971A631E0B1620000B4DAE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84971A4F1E0B161F000B4DAE;
+					};
+					84971A6E1E0B1620000B4DAE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84971A4F1E0B161F000B4DAE;
+					};
+				};
+			};
+			buildConfigurationList = 84971A4B1E0B161F000B4DAE /* Build configuration list for PBXProject "kikis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84971A471E0B161F000B4DAE;
+			productRefGroup = 84971A511E0B161F000B4DAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84971A4F1E0B161F000B4DAE /* kikis */,
+				84971A631E0B1620000B4DAE /* kikisTests */,
+				84971A6E1E0B1620000B4DAE /* kikisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84971A4E1E0B161F000B4DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84971A831E0B199D000B4DAE /* logo.png in Resources */,
+				84971A5E1E0B161F000B4DAE /* LaunchScreen.storyboard in Resources */,
+				84971A5B1E0B161F000B4DAE /* Assets.xcassets in Resources */,
+				84971A591E0B161F000B4DAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84971A621E0B1620000B4DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84971A6D1E0B1620000B4DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01167D37481BC8454A5C3C8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kikisTests/Pods-kikisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26677247D7733D21F9A1154C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kikisTests/Pods-kikisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27378F0880F1C371F4BF11B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kikis/Pods-kikis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DB2C0D9EE1656EAB42784F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kikisUITests/Pods-kikisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F069059276D1CE12202641A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A77AE046C1F0AD9753ED1D48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kikisUITests/Pods-kikisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA5B17A4D18EC14D0B37E15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE36845680FAA39CEC3928E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D80460B7538469C7FDC8019F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kikis/Pods-kikis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84971A4C1E0B161F000B4DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8439BEFD1E0CC066001FB113 /* ShoppingViewController.swift in Sources */,
+				84971A871E0B1CCB000B4DAE /* SignInViewController.swift in Sources */,
+				84971A8F1E0B3091000B4DAE /* FeaturedTableViewCell.swift in Sources */,
+				8439BF061E0CCE6C001FB113 /* DetailViewController.swift in Sources */,
+				8439BEFB1E0CC04E001FB113 /* ProfileViewController.swift in Sources */,
+				84971A561E0B161F000B4DAE /* ViewController.swift in Sources */,
+				84971A541E0B161F000B4DAE /* AppDelegate.swift in Sources */,
+				8439BEF91E0CC031001FB113 /* RestaurantViewController.swift in Sources */,
+				84971A8D1E0B2E74000B4DAE /* FeaturedViewController.swift in Sources */,
+				84971A851E0B1B5B000B4DAE /* AuthenticationDelegate.swift in Sources */,
+				84971A891E0B1CE6000B4DAE /* SignUpViewController.swift in Sources */,
+				84971A8B1E0B22F7000B4DAE /* BUYClient+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84971A601E0B1620000B4DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84971A691E0B1620000B4DAE /* kikisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84971A6B1E0B1620000B4DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84971A741E0B1620000B4DAE /* kikisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84971A661E0B1620000B4DAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84971A4F1E0B161F000B4DAE /* kikis */;
+			targetProxy = 84971A651E0B1620000B4DAE /* PBXContainerItemProxy */;
+		};
+		84971A711E0B1620000B4DAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84971A4F1E0B161F000B4DAE /* kikis */;
+			targetProxy = 84971A701E0B1620000B4DAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84971A571E0B161F000B4DAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84971A581E0B161F000B4DAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84971A5C1E0B161F000B4DAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84971A5D1E0B161F000B4DAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84971A761E0B1620000B4DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84971A771E0B1620000B4DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84971A791E0B1620000B4DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E59FCDB65082B75389D5D7 /* Pods-kikis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kikis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.kikis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84971A7A1E0B1620000B4DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F789505218E64492817136AF /* Pods-kikis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kikis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.kikis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84971A7C1E0B1620000B4DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E0F62BFB11C8AB9CA30379 /* Pods-kikisTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kikisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.kikisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kikis.app/kikis";
+			};
+			name = Debug;
+		};
+		84971A7D1E0B1620000B4DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F058565F3C065DE1D21FDBD3 /* Pods-kikisTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kikisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.kikisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kikis.app/kikis";
+			};
+			name = Release;
+		};
+		84971A7F1E0B1620000B4DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892DC683B391D697DB4CAC31 /* Pods-kikisUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kikisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.kikisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kikis;
+			};
+			name = Debug;
+		};
+		84971A801E0B1620000B4DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42EDF8F91FB98B055419F0B /* Pods-kikisUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kikisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.kikisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kikis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84971A4B1E0B161F000B4DAE /* Build configuration list for PBXProject "kikis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84971A761E0B1620000B4DAE /* Debug */,
+				84971A771E0B1620000B4DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84971A781E0B1620000B4DAE /* Build configuration list for PBXNativeTarget "kikis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84971A791E0B1620000B4DAE /* Debug */,
+				84971A7A1E0B1620000B4DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84971A7B1E0B1620000B4DAE /* Build configuration list for PBXNativeTarget "kikisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84971A7C1E0B1620000B4DAE /* Debug */,
+				84971A7D1E0B1620000B4DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84971A7E1E0B1620000B4DAE /* Build configuration list for PBXNativeTarget "kikisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84971A7F1E0B1620000B4DAE /* Debug */,
+				84971A801E0B1620000B4DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84971A481E0B161F000B4DAE /* Project object */;
+}
